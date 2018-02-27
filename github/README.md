@@ -66,20 +66,20 @@ Bạn cần thiêt lập vào email của mình để mỗi khi commit lên serv
 
 
 - Lựa chọn trình soạn thảo mặc định có thể là vi, vim, nano, ...
-</ul>
+<ul>
   
 
 `git config --global core.editor vi` 
 
 
 - Liệt kê các thiết lập:
-</ul>
+<ul>
  
 
 `git config --list`
 
 - Liên kết với tài khoản github bằng SSH
-</ul>
+<ul>
 
 `ssh-keygen =t rsa`
 
@@ -92,7 +92,7 @@ Kết quả:
 `id_rsa	id_rsa.pub	known_hosts`
 
 - add SSH
-</ul>
+<ul>
 
     ssh-agent -s
 
@@ -101,14 +101,14 @@ Kết quả:
     cat ~/.ssh/id_rsa.pub
 
 - copy đoạn mã này
-</ul>
+<ul>
 
 Truy cập đường link sau (Đảm bảo bạn đã đăng nhập vào github), chọn add SSh key, đặt tên cho key này tại ` Title` và pastse nội dung vừa copty vào ô `key`
 
 <img src="https://imgur.com/a/cCxPI">
 
 - Lúc này bạn có thể commit lên github tại máy local mà không nhập username và password.
-</ul>
+<ul>
 
 ### 4. Tạo repository, thực hiện Clone repo đó về máy tính rồi tạo thư mục, tạo file báo cáo "README.md" sau đó thực hiện Commit và Push lên
 
@@ -144,7 +144,7 @@ Lúc này sẽ thấy trong thư mục này cso fie `README.md`. Để sửa fil
 `vi README.md`
 
 - Thêm vào nội dung như sau:
-</ul>
+<ul>
 
 `Hello word!`
 
@@ -185,7 +185,7 @@ Lúc này thay đổi của bạn đã lưu lại trên máy cục bộ. Để �
 <img src="https://imgur.com/a/a5v7o">
 
 - Một cách khác nếu bạn không muốn thực hiện clone về máy như bước trên thì bạn có thể làm như sau:
-</ul>
+<ul>
 
 	Tạo một repo mới trên github.com mà không tạo gile README.md( giả sử ở đây là repo demo2)
 	Tại máy local tạo một thư mục để chưa repo mới này. Ví dụ:
@@ -200,7 +200,7 @@ Lúc này thay đổi của bạn đã lưu lại trên máy cục bộ. Để �
 `git commit README.md`
 
 - Hoặc `git commit README.md =m noi dung` 
-</ul>
+<ul>
 
 `git remote add origin git@github.com:XuXu619/demo2.git`
 
