@@ -110,7 +110,7 @@ Bạn cần thiêt lập vào email của mình để mỗi khi commit lên serv
 
 Truy cập đường link sau (Đảm bảo bạn đã đăng nhập vào github), chọn add SSh key, đặt tên cho key này tại ` Title` và pastse nội dung vừa copty vào ô `key`
 
-<img src="https://imgur.com/a/cCxPI">
+<img src="https://imgur.com/a/UHayf">
 
 - Lúc này bạn có thể commit lên github tại máy local mà không nhập username và password.
 </ul>
