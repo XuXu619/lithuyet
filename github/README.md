@@ -51,10 +51,9 @@ Vậy làm thế nào để có thể sử dụng github? Chắc chắn rồi, b
 - Setting up
 <ul>
 <li> Linux</li>
-</ul> 
 
 `apt-get install git`
-
+</ul>
 - Thiết lập ban đầu:
 <ul>
 
@@ -88,11 +87,13 @@ Bạn cần thiêt lập vào email của mình để mỗi khi commit lên serv
 
 *Nếu bạn nhập pass thì hãy nhớ pass này!*
 
-Kết quả: 
+- Kết quả: 
+<ul> 
 
 `Is !/.ssh/`
 
 `id_rsa	id_rsa.pub	known_hosts`
+</ul> 
 
 - add SSH
 <ul>
