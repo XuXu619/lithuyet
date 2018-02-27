@@ -8,7 +8,7 @@
 ### Menu
 [1. Tìm hiểu cách thức hoạt động của Github](#timhieu)
 
-[2. Hiểu được các khái niệm]()#(khainiem)
+[2. Hiểu được các khái niệm](#khainiem)
  
 [3. Tìm hiểu các bước để Setting up Git, Generate and add SSH key, cahing-your Github password in Git](#SettingupGit)	
 
@@ -16,7 +16,7 @@
 
 
 
-<a name= "Khainiem"></a>
+<a name= "Demo"></a>
 
 ### 1. Tìm hiểu cách thức hoạt động của Github 
 
