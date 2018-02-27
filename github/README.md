@@ -152,37 +152,48 @@ Lúc này sẽ thấy trong thư mục này cso fie `README.md`. Để sửa fil
 <ul>
 
 `Hello word!`
+
 </ul> 
 
-Tạo một hư mục mới, chẳng hạn tên là script để chưa các script của tôi.
-
+- Tạo một hư mục mới, chẳng hạn tên là script để chưa các script của tôi.
+<ul>
+	
 `mkdir script`
+</ul>
 
-Tạo một script mới trong thư mục đó.
-
+- Tạo một script mới trong thư mục đó.
+<ul> 
+	
 `vi script/script1.sh`
+</ul> 
 
-!/bin/sh
-echo "Hello Python Vietnam"
-sleep
+	!/bin/sh
+	echo "Hello Python Vietnam"
+	sleep
 
 bằng c tương tự các bạn có thể tạo thêm nhiều thư mục. file hướng dẫn. cấu hình, script, ... tùy ý
 
 *commit, push*
 
-Để thực hiện hành động commit file README.md ta thực hiện lệnh
-
+- Để thực hiện hành động commit file README.md ta thực hiện lệnh
+<ul>
+	
 `git commit README.md để add file README.md`
+</ul>
 
 Hoặc `git commit *` để commit tất cả.
 
-ta nên thêm tham só -m đẻ ghi lại một comment cho hành động đó
-
+- Ta nên thêm tham só -m đẻ ghi lại một comment cho hành động đó
+<ul>
+	
 `git commit README.md =m"XuXu619 sua doi"`
+</ul> 
 
-Lúc này thay đổi của bạn đã lưu lại trên máy cục bộ. Để đồng bộ lên server Github ta thực hiện lệnh:
-
+- Lúc này thay đổi của bạn đã lưu lại trên máy cục bộ. Để đồng bộ lên server Github ta thực hiện lệnh:
+<ul>
+	
 `git push origin master`
+</ul> 
 
 => Nhập passphrase (nếu bạn đặt passphrare ở mục trên) với phương pháp clone ssh hoặc nhập username, passwword nếu clone bằng https
 
