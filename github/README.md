@@ -139,14 +139,19 @@ SSH: `git clone git@github.com:XuXu619/demo1.git /opt/demo` để clone vào th�
 
 Lúc này trong thư mục hiện tại sẽ có thêm thư mục demo1 chưa các file trong repo trên github.
 
-Chuyển vào thư mục này 
+- Chuyển vào thư mục này 
+<ul>
+	
 `cd demo1`
 
 `Is`
+</ul>
 
-Lúc này sẽ thấy trong thư mục này cso fie `README.md`. Để sửa file này ta có thể sử dụng bất cứ trình soạn thảo nào, chẳng hạn vi, nano, getdit, ...
-
+- Lúc này sẽ thấy trong thư mục này cso fie `README.md`. Để sửa file này ta có thể sử dụng bất cứ trình soạn thảo nào, chẳng hạn vi, nano, getdit, ...
+<ul>
+	
 `vi README.md`
+</ul> 
 
 - Thêm vào nội dung như sau:
 <ul>
