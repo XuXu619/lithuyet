@@ -62,7 +62,8 @@ Bạn cần thiêt lập vào email của mình để mỗi khi commit lên serv
 
 `git config --global user.name"Xu Xu"` 
 
-`git config --global user.email Khietvu619@gmailcom` 
+`git config --global user.email Khietvu619@gmailcom`
+</ul>
 
 
 - Lựa chọn trình soạn thảo mặc định có thể là vi, vim, nano, ...
@@ -70,18 +71,20 @@ Bạn cần thiêt lập vào email của mình để mỗi khi commit lên serv
   
 
 `git config --global core.editor vi` 
-
+</ul>
 
 - Liệt kê các thiết lập:
 <ul>
  
 
 `git config --list`
+</ul>
 
 - Liên kết với tài khoản github bằng SSH
 <ul>
 
 `ssh-keygen =t rsa`
+</ul>
 
 *Nếu bạn nhập pass thì hãy nhớ pass này!*
 
@@ -109,6 +112,7 @@ Truy cập đường link sau (Đảm bảo bạn đã đăng nhập vào github
 
 - Lúc này bạn có thể commit lên github tại máy local mà không nhập username và password.
 <ul>
+</ul>
 
 ### 4. Tạo repository, thực hiện Clone repo đó về máy tính rồi tạo thư mục, tạo file báo cáo "README.md" sau đó thực hiện Commit và Push lên
 
@@ -147,6 +151,7 @@ Lúc này sẽ thấy trong thư mục này cso fie `README.md`. Để sửa fil
 <ul>
 
 `Hello word!`
+</ul> 
 
 Tạo một hư mục mới, chẳng hạn tên là script để chưa các script của tôi.
 
@@ -198,6 +203,7 @@ Lúc này thay đổi của bạn đã lưu lại trên máy cục bộ. Để �
 `vi README.md`
 `git add README.md`
 `git commit README.md`
+</ul>
 
 - Hoặc `git commit README.md =m noi dung` 
 <ul>
