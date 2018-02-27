@@ -103,9 +103,10 @@ Bạn cần thiêt lập vào email của mình để mỗi khi commit lên serv
     ssh-add ~/.ssh/id_rsa
 
     cat ~/.ssh/id_rsa.pub
+</ul>
 
 - copy đoạn mã này
-<ul>
+</ul>
 
 Truy cập đường link sau (Đảm bảo bạn đã đăng nhập vào github), chọn add SSh key, đặt tên cho key này tại ` Title` và pastse nội dung vừa copty vào ô `key`
 
