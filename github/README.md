@@ -1,9 +1,9 @@
 ## Tìm hiểu hoạt động của Github
 > Tài liệu tham khảo: https://github.com/hocchudong/git-github-for-sysadmin
 >
-> Người thực hiện; Xu Xu
+> Người thực hiện: Xu Xu
 >
-> Thực hiện lần cuối: 27/02/2018
+> Thực hiện lần cuối: **27/02/2018**
 
 ### Menu
 [1. Tìm hiểu cách thức hoạt động của Github](#timhieu)
@@ -72,6 +72,7 @@ Bạn cần thiêt lập vào email của mình để mỗi khi commit lên serv
 
 
 - Liệt kê các thiết lập:
+</ul>
  
 
 `git config --list`
@@ -192,6 +193,7 @@ Lúc này thay đổi của bạn đã lưu lại trên máy cục bộ. Để �
 `git commit README.md`
 
 - Hoặc `git commit README.md =m noi dung` 
+</ul>
 
 `git remote add origin git@github.com:XuXu619/demo2.git`
 
