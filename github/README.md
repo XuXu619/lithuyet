@@ -58,8 +58,7 @@ Vậy làm thế nào để có thể sử dụng github? Chắc chắn rồi, b
 - Thiết lập ban đầu:
 <ul>
 
-<li> Bạn cần thiêt lập vào email của mình để mỗi khi commit lên server sẽ nhận biết được ai commit lên vì một repo có thể có nhiều người tham gia.</li> 
-</ul> 
+Bạn cần thiêt lập vào email của mình để mỗi khi commit lên server sẽ nhận biết được ai commit lên vì một repo có thể có nhiều người tham gia.
 
 `git config --global user.name"Xu Xu"` 
 
@@ -77,11 +76,11 @@ Vậy làm thế nào để có thể sử dụng github? Chắc chắn rồi, b
 
 `git config --list`
 
-*Liên kết với tài khoản github bằng SSH*
+- Liên kết với tài khoản github bằng SSH
 
 `ssh-keygen =t rsa`
 
-Nếu bạn nhập pass thì hãy nhớ pass này!
+*Nếu bạn nhập pass thì hãy nhớ pass này!*
 
 Kết quả: 
 
@@ -89,7 +88,7 @@ Kết quả:
 
 `id_rsa	id_rsa.pub	known_hosts`
 
-*add SSH* 
+- add SSH 
 
     ssh-agent -s
 
@@ -97,13 +96,13 @@ Kết quả:
 
     cat ~/.ssh/id_rsa.pub
 
-copy đoạn mã này 
+- copy đoạn mã này 
 
 Truy cập đường link sau (Đảm bảo bạn đã đăng nhập vào github), chọn add SSh key, đặt tên cho key này tại ` Title` và pastse nội dung vừa copty vào ô `key`
 
 <img src="https://imgur.com/a/cCxPI">
 
-Lúc này bạn có thể commit lên github tại máy local mà không nhập username và password.
+- Lúc này bạn có thể commit lên github tại máy local mà không nhập username và password.
 
 ### 4. Tạo repository, thực hiện Clone repo đó về máy tính rồi tạo thư mục, tạo file báo cáo "README.md" sau đó thực hiện Commit và Push lên
 
@@ -126,6 +125,7 @@ SSH: `git clone git@github.com:XuXu619/demo1.git /opt/demo` để clone vào th�
 <img src="https://imgur.com/a/00Thb">
 
 Ở đây sử dụng lệnh git clone `git@github.com:XuXu619/demo1.git`
+
 Lúc này trong thư mục hiện tại sẽ có thêm thư mục demo1 chưa các file trong repo trên github.
 
 Chuyển vào thư mục này 
@@ -137,7 +137,7 @@ Lúc này sẽ thấy trong thư mục này cso fie `README.md`. Để sửa fil
 
 `vi README.md`
 
-Thêm vào nội dung như sau:
+- Thêm vào nội dung như sau:
 
 `Hello word!`
 
@@ -153,7 +153,7 @@ Tạo một script mới trong thư mục đó.
 echo "Hello Python Vietnam"
 sleep
 
-bằng cachs tương tự các bạn có thể tạo thêm nhiều thư mục. file hướng dẫn. cấu hình, script, ... tùy ý
+bằng c tương tự các bạn có thể tạo thêm nhiều thư mục. file hướng dẫn. cấu hình, script, ... tùy ý
 
 *commit, push*
 
@@ -177,7 +177,7 @@ Lúc này thay đổi của bạn đã lưu lại trên máy cục bộ. Để �
 
 <img src="https://imgur.com/a/a5v7o">
 
-Một cách khác nếu bạn không muốn thực hiện clone về máy như bước trên thì bạn có thể làm như sau:
+- Một cách khác nếu bạn không muốn thực hiện clone về máy như bước trên thì bạn có thể làm như sau:
 
 	Tạo một repo mới trên github.com mà không tạo gile README.md( giả sử ở đây là repo demo2)
 	Tại máy local tạo một thư mục để chưa repo mới này. Ví dụ:
@@ -191,7 +191,7 @@ Một cách khác nếu bạn không muốn thực hiện clone về máy như b
 `git add README.md`
 `git commit README.md`
 
-Hoặc `git commit README.md =m noi dung` 
+- Hoặc `git commit README.md =m noi dung` 
 
 `git remote add origin git@github.com:XuXu619/demo2.git`
 
