@@ -112,7 +112,6 @@ Truy cập đường link sau (Đảm bảo bạn đã đăng nhập vào github
 <img src="https://imgur.com/a/cCxPI">
 
 - Lúc này bạn có thể commit lên github tại máy local mà không nhập username và password.
-<ul>
 </ul>
 
 ### 4. Tạo repository, thực hiện Clone repo đó về máy tính rồi tạo thư mục, tạo file báo cáo "README.md" sau đó thực hiện Commit và Push lên
