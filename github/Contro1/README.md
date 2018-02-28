@@ -37,6 +37,10 @@
 
 -	[2.2 Tổng quan](#tongquan)
 
+-	[2.3 Khai báo](#khaibao)
+
+-	[2.4 Khởi tạo](#khoitao)
+
 
 [3. Viết báo cáo chi tiết các phần tìm hiểu](#baocao)
 
@@ -198,7 +202,7 @@ Cứ note một cái quan trọng, cực kì quan trọng (người ta nói): Co
 <ul>
 <li> Kiểu dữ liệu có sẵn (built-in data type): int, char, double, long, ....</li>
 <li> Kiểu dữ liệu cấu trúc do người dùng định nghĩa (user-denied data type): struct, union</li>
-<li> Kiểu dữ liệu dẫn xuất + kiểu con trỏ hàm (các chap adv nhé)
+<li> Kiểu dữ liệu dẫn xuất + kiểu con trỏ hàm (các chap adv nhé) </ul>
 
 Kiểu dữ liệu của cái vùng nhớ mà nó trỏ đến
 
